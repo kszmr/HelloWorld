@@ -1,0 +1,221 @@
+.logo {
+    position: absolute;
+    left: 50pt;
+    top: 0px;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    /* nondrag */
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+nav {
+    text-align: right;
+    margin-right: 100pt;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 30pt;
+}
+
+nav ul a {
+    font-family: 'DM Mono', monospace;
+    font-size: 14pt;  
+    padding-bottom: 10pt;
+    text-decoration: none;
+    letter-spacing: 2pt;
+    color: #263238;
+}
+
+nav ul a:hover {
+    border-bottom: #7aa0eb solid 4pt;
+}
+
+nav ul button.navbot {
+    font-family: 'DM Mono', monospace;
+    font-size: 14pt;  
+    letter-spacing: 2pt;
+    color: #263238;
+    background-color: white;
+    border-color: #263238;
+    border-radius: 5pt;
+    padding: 2pt 5pt 2pt 5pt;
+}
+
+nav ul button.navbot:hover {
+    border: #7aa0eb solid;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: absolute;
+    top: 130pt;
+    left: 50pt;
+}
+
+div.flex1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+div.txt {
+    width: 250pt;
+}
+
+main div h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50pt;
+    width: 600pt;
+    margin: 0 0 0 0;
+    color: #263238;
+}
+
+main div p {
+    font-family: 'DM Mono', monospace;
+    font-size: 16pt;
+    line-height: 200%;
+    text-align: left;
+    color: #263238;
+}
+
+main div button.saibamais {
+    font-family: 'DM Mono', monospace;
+    font-size: 14pt;  
+    letter-spacing: 2pt;
+    margin-right: 20pt;
+    color: #263238;
+    background-color: white;
+    border: #ed759f solid;
+    border-radius: 5pt;
+    padding: 8pt;
+}
+
+div button.iniciar {
+    font-family: 'DM Mono', monospace;
+    font-size: 14pt;  
+    letter-spacing: 2pt;
+    color: #263238;
+    background-color: #ed759f;
+    border: #ed759f solid;
+    border-radius: 5pt;
+    padding: 8pt;
+}
+
+div.txt {
+    margin-top: 65pt;
+    margin-left: 120pt;
+    width: 250pt;
+}
+
+div.imgspc {
+    float: right;
+    margin-left: 163pt;
+    margin-top: -95pt;
+}
+
+.img { /* nondrag */
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+div.cursos1 {
+    margin-top: 500pt;
+    background: transparent;
+}
+
+div.cursos2 {
+    background-color: #7aa0eb;
+    margin-top: 90pt;
+    font-family:  'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 20pt;
+}
+
+div.cursotxt {
+    width: 200pt;   
+    margin-left: 60pt;
+}
+
+h2 {
+    position: relative;
+    top: 40pt;
+    padding: 0;
+    margin: 0;
+}
+
+div.cursotabelas {
+    background: #7aa0eb;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.secaoCursos {
+    display: flex;
+    background: #7aa0eb;
+    margin-top: -10pt;
+}
+
+div .linguagens {
+    background-color: #edf3ff;
+    margin: 5pt 5pt;
+    padding: 10pt;
+    border-radius: 5%;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #b5c3e0;
+    border-bottom: none;
+}
+
+div .linguagens:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1em #4272cc;
+}
+
+.linguagens p {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    color: #5d7a89;
+    font-weight: lighter;
+    font-size: 14pt;
+}
+
+img.logocursos {
+    width: 50pt;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    color: #263238;
+    text-align: center;
+}
+
+.cursobut {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    letter-spacing: 2pt;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 5pt;
+    background-color: #569825;
+    border-radius: 5pt;
+    border: none;
+}
